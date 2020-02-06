@@ -67,5 +67,3 @@ if __name__ == '__main__':
 		
 		for neighbor in neighbors:
 			train(root=root ,res=res, neighbor=neighbor, model_save_path=model_save_path, TEST_SPLIT=TEST_SPLIT)
-
-        
